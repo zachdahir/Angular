@@ -1,8 +1,8 @@
 /**
- * Title: app.component.ts
+ * Title: Assignment 2.4
  * Author: Zachary Dahir
- * Date: 7-12-20
- * Description: App component
+ * Date: 7-18-20
+ * Description: App Component
  */
 
 import { Component } from '@angular/core';
@@ -13,6 +13,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isLoggedIn: Boolean = true;
-  assignment = 'Assignment 2.3 - Data Binding';
+  assignment = 'Composer App';
 }

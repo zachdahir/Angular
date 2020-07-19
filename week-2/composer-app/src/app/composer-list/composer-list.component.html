@@ -1,0 +1,14 @@
+<table class='table'>
+  <thead class='thead thead-dark'>
+    <tr>
+      <th>Full Name</th>
+      <th>Genre</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let composer of composers">
+    <tr>
+      <td> {{ composer.fullName }} </td>
+      <td> {{ composer.genre}} </td>
+    </tr>
+  </tbody>
+</table>
